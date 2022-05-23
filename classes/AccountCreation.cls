@@ -1,6 +1,7 @@
 Public class AccountCreation {
     Public Account createAccount(String name){ Account a= new Account();
-        a.Name = name;
+        a.Name = 'Test Name'+ name;
+		a.description ='test';
         insert a;
         return a;
     } 
