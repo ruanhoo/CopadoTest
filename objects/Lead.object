@@ -258,6 +258,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Address</fullName>
+        <encryptionScheme>CaseInsensitiveDeterministicEncryption</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -347,6 +348,7 @@
     </fields>
     <fields>
         <fullName>Name</fullName>
+        <encryptionScheme>CaseInsensitiveDeterministicEncryption</encryptionScheme>
         <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
@@ -371,6 +373,7 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
+        <encryptionScheme>CaseInsensitiveDeterministicEncryption</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
