@@ -1,8 +1,8 @@
 Public class AccountCreation {
-    Public Account createAccount(String name){ Account a= new Account();
-        a.Name = name;
-		// added comment in dev2
-		system.debug('added comment in dev2');
+    Public static Account createAccount(String name){ Account a= new Account();
+        TestCMDT__mdt rec = [select id,Label from TestCMDT__mdt limit 1];                               
+        a.Name = 'Test Name'+ name + '_' + rec.label;
+        a.description ='test';
         insert a;
         return a;
     } 

@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>PS3</members>
-        <name>PermissionSet</name>
+        <members>AccountCreation</members>
+        <members>AccountCreation_Test</members>
+        <name>ApexClass</name>
     </types>
     <types>
-        <members>Admin_PSG</members>
-        <name>PermissionSetGroup</name>
+        <members>TestCMDT__mdt</members>
+        <name>CustomObject</name>
     </types>
-    <version>54.0</version>
+    <types>
+        <members>TestCMDT__mdt-TestCMDT Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>55.0</version>
 </Package>
